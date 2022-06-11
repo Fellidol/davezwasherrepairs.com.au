@@ -1,9 +1,9 @@
 import Head from "next/head";
-import styled from "styled-components";
+import Navigation from "../components/Navigation";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Davez washer and dryer repairs</title>
         <meta
@@ -12,6 +12,7 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    </div>
+      <Navigation />
+    </>
   );
 }
