@@ -5,6 +5,7 @@ const menuHeight = "60px";
 const bgColor = "rgba(43, 43, 43, 0.98)";
 
 export const NavBar = styled.div`
+  position: relative;
   background-color: ${bgColor};
   position: fixed;
   top: 0;
@@ -29,6 +30,7 @@ export const Menu = styled.div.attrs((props) => {
   position: fixed;
   top: ${menuHeight};
   left: -100%;
+  z-index: 98;
   width: 100%;
   height: calc(100% - ${menuHeight});
   background-color: ${bgColor};

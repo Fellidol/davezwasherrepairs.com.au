@@ -1,9 +1,10 @@
 import Head from "next/head";
+import PageContainer from "../components/PageContainer";
 import Navigation from "../components/Navigation";
 
 export default function Home() {
   return (
-    <>
+    <PageContainer>
       <Head>
         <title>Davez washer and dryer repairs</title>
         <meta
@@ -13,6 +14,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navigation />
-    </>
+    </PageContainer>
   );
 }
