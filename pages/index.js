@@ -3,6 +3,7 @@ import PageContainer from "../components/PageContainer";
 import Navigation from "../components/Navigation";
 import Header from "../components/Header";
 import Waves from "../components/Waves";
+import Propaganda from "../components/Propaganda";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Navigation />
       <Header />
       <Waves />
+      <Propaganda />
     </PageContainer>
   );
 }
