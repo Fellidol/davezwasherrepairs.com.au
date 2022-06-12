@@ -2,6 +2,8 @@ import styled, { css } from "styled-components";
 import Text from "../Text";
 
 export const Outer = styled.div`
+  position: relative;
+  z-index: 1;
   max-width: 990px;
   padding: 60px 16px 0;
   margin: 0 auto;
