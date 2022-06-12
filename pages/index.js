@@ -1,6 +1,7 @@
 import Head from "next/head";
 import PageContainer from "../components/PageContainer";
 import Navigation from "../components/Navigation";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navigation />
+      <Header />
     </PageContainer>
   );
 }
