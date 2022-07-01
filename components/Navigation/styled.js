@@ -12,6 +12,9 @@ export const NavBar = styled.div`
   z-index: 99;
   height: ${menuHeight};
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 `;
 
 export const MenuButton = styled.button`
@@ -20,6 +23,13 @@ export const MenuButton = styled.button`
   height: 100%;
   aspect-ratio: 1/1;
   background-color: transparent;
+`;
+
+export const Logo = styled.div`
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
 `;
 
 export const Menu = styled.div.attrs((props) => {
