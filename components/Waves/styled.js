@@ -10,14 +10,25 @@ const moveForever = keyframes` {
 }`;
 
 export const Outer = styled.div`
+  position: absolute;
   width: 100%;
-  height: 150px;
-  margin-top: -100px;
+  max-height: 200px;
+  transform: translateY(-100%);
+
+  &:after {
+    content: "";
+    display: block;
+    background: #fff;
+    width: 100%;
+    height: 100px;
+  }
 
   svg {
     position: relative;
+    display: block;
     width: 100%;
     height: 100%;
+    max-height: 200px;
   }
 
   g > use {
@@ -38,9 +49,5 @@ export const Outer = styled.div`
   g > use:nth-child(4) {
     animation-delay: -5s;
     animation-duration: 20s;
-  }
-
-  @media (min-width: 992px) {
-    height: 200px;
   }
 `;

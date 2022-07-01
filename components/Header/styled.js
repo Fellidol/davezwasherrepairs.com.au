@@ -39,6 +39,7 @@ export const Heading = styled.div`
   color: #fff;
   @media (min-width: 992px) {
     font-size: 2.4rem;
+    margin-bottom: 0;
   }
 `;
 
@@ -68,10 +69,14 @@ export const Button = styled.a`
   white-space: nowrap;
   background-color: #008cba;
   border-radius: 5px;
-  padding: 6px 20px;
+  padding: 16px 20px;
   text-decoration: none;
   display: flex;
   align-items: center;
+  @media (min-width: 992px) {
+    font-size: 1.5rem;
+    padding: 6px 20px;
+  }
 `;
 
 export const ButtonIcon = styled.span`
@@ -101,11 +106,15 @@ export const HeroImage = styled.div`
   max-width: 818px;
 `;
 
+export const OfferContainer = styled.div`
+  text-align: center;
+`;
+
 export const Offer = styled(Text)`
-  position: relative;
+  display: inline-block;
   text-align: center;
   color: #fff;
-  background: #039200;
-  padding: 16px;
+  background-color: rgba(3, 146, 0, 0.85);
+  padding: 16px 30px;
   border-radius: 5px;
 `;

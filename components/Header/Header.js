@@ -11,6 +11,7 @@ import {
   ButtonIcon,
   ButtonText,
   HeroImage,
+  OfferContainer,
   Offer,
 } from "./styled";
 import Waves from "../Waves";
@@ -51,9 +52,12 @@ const Header = () => {
           priority
         />
       </HeroImage>
-      <Offer>
-        Mention this website and receive <strong>$10 off</strong> your repairs.
-      </Offer>
+      <OfferContainer>
+        <Offer>
+          Mention this website and receive <strong>$10 off</strong> your
+          repairs.
+        </Offer>
+      </OfferContainer>
     </Outer>
   );
 };
