@@ -13,7 +13,7 @@ export const Inner = styled.div`
 export const Items = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 16px 16px;
   padding: 16px;
 
@@ -24,7 +24,7 @@ export const Items = styled.div`
 
   @media (min-width: 992px) {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
   }
 `;
 
