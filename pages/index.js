@@ -4,6 +4,7 @@ import Navigation from "../components/Navigation";
 import Header from "../components/Header";
 import Waves from "../components/Waves";
 import Propaganda from "../components/Propaganda";
+import Brands from "../components/Brands";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Header />
       <Waves />
       <Propaganda />
+      <Brands />
     </PageContainer>
   );
 }
