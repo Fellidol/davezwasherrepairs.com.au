@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Waves from "../components/Waves";
 import Propaganda from "../components/Propaganda";
 import Brands from "../components/Brands";
+import Areas from "../components/Areas";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Waves />
       <Propaganda />
       <Brands />
+      <Areas />
     </PageContainer>
   );
 }
