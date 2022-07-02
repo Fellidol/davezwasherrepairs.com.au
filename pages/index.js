@@ -1,11 +1,12 @@
 import Head from "next/head";
 import PageContainer from "../components/PageContainer";
 import Navigation from "../components/Navigation";
-import Header from "../components/Header";
+import Intro from "../components/Intro";
 import Waves from "../components/Waves";
 import Propaganda from "../components/Propaganda";
 import Brands from "../components/Brands";
 import Areas from "../components/Areas";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -19,11 +20,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navigation />
-      <Header />
+      <Intro />
       <Waves />
       <Propaganda />
       <Brands />
       <Areas />
+      <Contact />
     </PageContainer>
   );
 }

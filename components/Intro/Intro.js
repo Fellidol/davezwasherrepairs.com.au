@@ -7,18 +7,14 @@ import {
   SubHeading,
   Contact,
   CallText,
-  Button,
-  ButtonIcon,
-  ButtonText,
   HeroImage,
   OfferContainer,
   Offer,
 } from "./styled";
-import Waves from "../Waves";
-import phoneIcon from "../../images/211830_telephone_icon.svg";
+import ButtonCall from "../ButtonCall";
 import heroImg from "../../images/hero.png";
 
-const Header = () => {
+export default function Intro() {
   return (
     <Outer>
       <TitleContainer>
@@ -28,18 +24,7 @@ const Header = () => {
         </Title>
         <Contact>
           <CallText>Call David on</CallText>
-          <Button href="tel:0452234752">
-            <ButtonIcon>
-              <Image
-                src={phoneIcon}
-                layout="fill"
-                objectFit="contain"
-                objectPosition="center"
-                alt="phone icon"
-              />
-            </ButtonIcon>
-            <ButtonText>0452 234 752</ButtonText>
-          </Button>
+          <ButtonCall />
         </Contact>
       </TitleContainer>
       <HeroImage>
@@ -60,6 +45,4 @@ const Header = () => {
       </OfferContainer>
     </Outer>
   );
-};
-
-export default Header;
+}
