@@ -7,6 +7,7 @@ import Propaganda from "../components/Propaganda";
 import Brands from "../components/Brands";
 import Areas from "../components/Areas";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <Brands />
       <Areas />
       <Contact />
+      <Footer />
     </PageContainer>
   );
 }
