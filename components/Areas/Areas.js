@@ -1,8 +1,8 @@
 import Image from "next/image";
+import Section from "../Section";
+import SectionInner from "../SectionInner";
 import Tabs from "../Tabs";
 import {
-  Outer,
-  Inner,
   Title,
   Map,
   MapContainer,
@@ -15,12 +15,12 @@ import suburbs from "./assets/suburbs.json";
 
 export default function Propaganda() {
   return (
-    <Outer>
-      <Inner>
+    <Section>
+      <SectionInner>
         <Title>The areas we service</Title>
         <Tabs data={data} />
-      </Inner>
-    </Outer>
+      </SectionInner>
+    </Section>
   );
 }
 

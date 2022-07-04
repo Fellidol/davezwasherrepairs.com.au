@@ -1,9 +1,11 @@
-import { Outer, Inner, Items, Item, Icon, ItemText } from "./styled";
+import Section from "../Section";
+import SectionInner from "../SectionInner";
+import { Items, Item, Icon, ItemText } from "./styled";
 
 export default function Propaganda() {
   return (
-    <Outer>
-      <Inner>
+    <Section>
+      <SectionInner>
         <Items>
           <Item>
             <Icon>
@@ -53,7 +55,7 @@ export default function Propaganda() {
             <ItemText>All work guaranteed</ItemText>
           </Item>
         </Items>
-      </Inner>
-    </Outer>
+      </SectionInner>
+    </Section>
   );
 }

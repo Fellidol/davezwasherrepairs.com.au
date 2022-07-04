@@ -1,5 +1,7 @@
 import Image from "next/image";
-import { Outer, Inner, Title, Items, Item } from "./styled";
+import Section from "../Section";
+import SectionInner from "../SectionInner";
+import { Title, Items, Item } from "./styled";
 import logoArtisan from "./images/01-artiston.gif";
 import logoSimpson from "./images/02-simpson.gif";
 import logoWhirlpool from "./images/03-whirlpool.gif";
@@ -14,8 +16,8 @@ import logoElectrolux from "./images/13-electrolux.gif";
 
 export default function Propaganda() {
   return (
-    <Outer>
-      <Inner>
+    <Section>
+      <SectionInner>
         <Title>Brands we service</Title>
         <Items>
           {logoArray.map((item) => (
@@ -24,8 +26,8 @@ export default function Propaganda() {
             </Item>
           ))}
         </Items>
-      </Inner>
-    </Outer>
+      </SectionInner>
+    </Section>
   );
 }
 

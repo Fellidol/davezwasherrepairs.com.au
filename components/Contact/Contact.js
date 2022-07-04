@@ -1,12 +1,14 @@
 import Image from "next/image";
+import Section from "../Section";
+import SectionInner from "../SectionInner";
 import ButtonCall from "../ButtonCall/ButtonCall";
 import { Outer, Inner, CardContainer, Card, ImageContainer } from "./styled";
 import backgroundImage from "./assets/kitten.jpg";
 
 export default function Contact() {
   return (
-    <Outer>
-      <Inner>
+    <Section>
+      <SectionInner>
         <CardContainer>
           <Card>
             <p>
@@ -17,7 +19,7 @@ export default function Contact() {
             <ButtonCall />
           </Card>
         </CardContainer>
-      </Inner>
+      </SectionInner>
       <ImageContainer>
         <Image
           src={backgroundImage}
@@ -26,6 +28,6 @@ export default function Contact() {
           alt="kitten asleep in washing machine"
         />
       </ImageContainer>
-    </Outer>
+    </Section>
   );
 }

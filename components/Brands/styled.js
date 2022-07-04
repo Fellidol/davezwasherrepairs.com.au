@@ -1,15 +1,5 @@
 import styled from "styled-components";
 
-export const Outer = styled.div`
-  position: relative;
-  background-color: #fff;
-`;
-
-export const Inner = styled.div`
-  max-width: 992px;
-  margin: 0 auto;
-`;
-
 export const Title = styled.h2`
   text-align: center;
   margin: 0;

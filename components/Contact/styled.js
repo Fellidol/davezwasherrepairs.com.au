@@ -1,29 +1,8 @@
 import styled from "styled-components";
 
-export const Outer = styled.div`
-  position: relative;
-  background-color: #fff;
-
-  position: relative;
-  aspect-ratio: 1/1;
-
-  @media (min-width: 600px) {
-    aspect-ratio: 16/9;
-  }
-
-  @media (min-width: 992px) {
-    aspect-ratio: 16/9;
-  }
-`;
-
-export const Inner = styled.div`
+export const CardContainer = styled.div`
   position: relative;
   z-index: 1;
-  max-width: 992px;
-  margin: 0 auto;
-`;
-
-export const CardContainer = styled.div`
   display: flex;
   justify-content: center;
   padding: 16px;
