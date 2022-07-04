@@ -1,9 +1,8 @@
 import styled from "styled-components";
+import Heading2 from "../Heading2";
 
-export const Title = styled.h2`
+export const Title = styled(Heading2)`
   text-align: center;
-  margin: 0;
-  padding: 16px;
 `;
 
 export const Items = styled.div`
@@ -11,7 +10,6 @@ export const Items = styled.div`
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 16px 16px;
-  padding: 16px;
 
   @media (min-width: 600px) {
     grid-template-columns: 1fr 1fr 1fr;

@@ -5,7 +5,6 @@ export const Items = styled.div`
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 16px 16px;
-  /* padding: 16px; */
 
   @media (min-width: 600px) {
     grid-template-columns: 1fr 1fr;
@@ -25,8 +24,9 @@ export const Item = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 32px;
-  background-color: #efefef;
+  background-color: #fff;
   border-radius: 10px;
+  box-shadow: 0px 0px 30px rgb(0 0 0 / 10%);
 `;
 
 export const Icon = styled.div`

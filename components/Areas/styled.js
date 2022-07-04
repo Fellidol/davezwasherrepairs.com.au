@@ -1,9 +1,8 @@
 import styled from "styled-components";
+import Heading2 from "../Heading2";
 
-export const Title = styled.h2`
+export const Title = styled(Heading2)`
   text-align: center;
-  margin: 0;
-  padding: 16px;
 `;
 
 export const MapContainer = styled.div`

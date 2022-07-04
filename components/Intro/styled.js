@@ -1,4 +1,6 @@
 import styled, { css } from "styled-components";
+import Heading1 from "../Heading1";
+import Heading2 from "../Heading2";
 import Text from "../Text";
 
 export const Outer = styled.div`
@@ -14,43 +16,29 @@ export const TitleContainer = styled.div`
   display: flex;
   flex-direction: column;
   text-shadow: "0px 0px 5px black";
-
-  @media (min-width: 992px) {
-    flex-direction: row;
-    justify-content: space-between;
-  }
 `;
 
 export const Title = styled.div`
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-
-  @media (min-width: 992px) {
-    text-align: left;
-  }
 `;
 
-export const Heading = styled.div`
-  margin: 16px 0;
+export const Heading = styled(Heading1)`
   text-transform: uppercase;
-  font-size: 1.9rem;
-  font-weight: 400;
   color: #fff;
-  @media (min-width: 992px) {
-    font-size: 2.4rem;
+  margin: 16px 0;
+
+  @media (min-width: 768px) {
     margin-bottom: 0;
   }
 `;
 
-export const SubHeading = styled.div`
-  margin-bottom: 16px;
-  font-size: 1.3rem;
+export const SubHeading = styled(Heading2)`
   font-weight: 400;
   color: #fff;
-  @media (min-width: 992px) {
-    font-size: 1.5rem;
-  }
+  margin-top: 0;
+  margin-bottom: 16px;
 `;
 
 export const Contact = styled.div`
@@ -82,5 +70,6 @@ export const Offer = styled(Text)`
   color: #fff;
   background-color: rgba(3, 146, 0, 0.85);
   padding: 16px 30px;
+  margin: 0;
   border-radius: 5px;
 `;
