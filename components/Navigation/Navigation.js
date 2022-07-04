@@ -7,6 +7,13 @@ import fellidol from "../../images/fellidol.png";
 const Navigation = () => {
   const [menuIsActive, setmMenuIsActive] = useState(false);
 
+  function handleClick(target) {
+    document.getElementById(target).scrollIntoView({
+      behavior: "smooth",
+    });
+    setmMenuIsActive(false);
+  }
+
   return (
     <>
       <NavBar>
@@ -29,10 +36,34 @@ const Navigation = () => {
       </NavBar>
       <Menu active={menuIsActive}>
         <MenuItems active={menuIsActive}>
-          <MenuItem>About us</MenuItem>
-          <MenuItem>Brands we service</MenuItem>
-          <MenuItem>Suburbs we service</MenuItem>
-          <MenuItem>Contact us</MenuItem>
+          <MenuItem
+            onClick={() => {
+              handleClick("about");
+            }}
+          >
+            About us
+          </MenuItem>
+          <MenuItem
+            onClick={() => {
+              handleClick("brands");
+            }}
+          >
+            Brands we service
+          </MenuItem>
+          <MenuItem
+            onClick={() => {
+              handleClick("suburbs");
+            }}
+          >
+            Suburbs we service
+          </MenuItem>
+          <MenuItem
+            onClick={() => {
+              handleClick("contact");
+            }}
+          >
+            Contact us
+          </MenuItem>
         </MenuItems>
       </Menu>
     </>

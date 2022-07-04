@@ -23,9 +23,13 @@ export default function Home() {
       <Navigation />
       <Intro />
       <Waves />
+      <a id="about" />
       <Propaganda />
+      <a id="brands" />
       <Brands />
+      <a id="suburbs" />
       <Areas />
+      <a id="contact" />
       <Contact />
       <Footer />
     </PageContainer>
