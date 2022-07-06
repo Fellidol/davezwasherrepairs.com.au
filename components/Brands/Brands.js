@@ -13,6 +13,7 @@ import logoKleenmain from "./images/10-kleenmaid.gif";
 import logoHoover from "./images/11-hoover.gif";
 import logoBosch from "./images/12-bosch.gif";
 import logoElectrolux from "./images/13-electrolux.gif";
+import logoFellidol from "../../images/fellidol.png";
 
 export default function Propaganda() {
   return (
@@ -43,4 +44,5 @@ const logoArray = [
   { logo: logoHoover, alt: "Hoover" },
   { logo: logoBosch, alt: "Bosch" },
   { logo: logoElectrolux, alt: "Electrolux" },
+  { logo: logoFellidol, alt: "FellIdol" },
 ];
