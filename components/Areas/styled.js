@@ -1,11 +1,12 @@
 import styled from "styled-components";
 import Heading2 from "../Heading2";
+import Card from "../Card";
 
 export const Title = styled(Heading2)`
   text-align: center;
 `;
 
-export const MapContainer = styled.div`
+export const TabContent = styled(Card)`
   padding: 16px;
 `;
 
@@ -14,10 +15,6 @@ export const Map = styled.div`
   aspect-ratio: 1/1;
   border-radius: 10px;
   overflow: hidden;
-`;
-
-export const ListContainer = styled.div`
-  padding: 16px;
 `;
 
 export const List = styled.ul`

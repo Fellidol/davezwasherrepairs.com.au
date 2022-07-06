@@ -8,8 +8,10 @@ import Brands from "../components/Brands";
 import Areas from "../components/Areas";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import Anchor from "../components/Anchor";
 
 export default function Home() {
+  const offset = "-60px";
   return (
     <PageContainer>
       <Head>
@@ -23,13 +25,13 @@ export default function Home() {
       <Navigation />
       <Intro />
       <Waves />
-      <a id="about" />
+      <Anchor id="about" offset={offset} />
       <Propaganda />
-      <a id="brands" />
+      <Anchor id="brands" offset={offset} />
       <Brands />
-      <a id="suburbs" />
+      <Anchor id="suburbs" offset={offset} />
       <Areas />
-      <a id="contact" />
+      <Anchor id="contact" offset={offset} />
       <Contact />
       <Footer />
     </PageContainer>
