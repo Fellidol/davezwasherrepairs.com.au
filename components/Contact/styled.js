@@ -1,4 +1,16 @@
 import styled from "styled-components";
+import Card from "../Card";
+import Section from "../Section";
+
+export const SectionContact = styled(Section)`
+  aspect-ratio: 1/1;
+  @media (min-width: 768px) {
+    aspect-ratio: 4/3;
+  }
+  @media (min-width: 992px) {
+    aspect-ratio: 16/9;
+  }
+`;
 
 export const CardContainer = styled.div`
   position: relative;
@@ -12,12 +24,11 @@ export const CardContainer = styled.div`
   }
 `;
 
-export const Card = styled.div`
-  background: rgba(255, 255, 255, 0.7);
-  border-radius: 10px;
+export const CardContact = styled(Card)`
+  width: auto;
   padding: 16px;
   text-align: center;
-  box-shadow: 0px 0px 30px rgb(0 0 0 / 10%);
+  background: rgba(255, 255, 255, 0.7);
 `;
 
 export const ImageContainer = styled.div`

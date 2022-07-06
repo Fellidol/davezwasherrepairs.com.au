@@ -2,22 +2,27 @@ import Image from "next/image";
 import Section from "../Section";
 import SectionInner from "../SectionInner";
 import ButtonCall from "../ButtonCall/ButtonCall";
-import { Outer, Inner, CardContainer, Card, ImageContainer } from "./styled";
+import {
+  SectionContact,
+  CardContainer,
+  CardContact,
+  ImageContainer,
+} from "./styled";
 import backgroundImage from "./assets/kitten.jpg";
 
 export default function Contact() {
   return (
-    <Section>
+    <SectionContact>
       <SectionInner>
         <CardContainer>
-          <Card>
+          <CardContact>
             <p>
               For fast &amp; reliable <br />
               washing machine repair
             </p>
             <h3>Call David today!</h3>
             <ButtonCall />
-          </Card>
+          </CardContact>
         </CardContainer>
       </SectionInner>
       <ImageContainer>
@@ -28,6 +33,6 @@ export default function Contact() {
           alt="kitten asleep in washing machine"
         />
       </ImageContainer>
-    </Section>
+    </SectionContact>
   );
 }

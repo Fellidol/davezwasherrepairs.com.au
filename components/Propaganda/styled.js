@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Card from "../Card";
 
 export const Items = styled.div`
   display: grid;
@@ -17,16 +18,13 @@ export const Items = styled.div`
   }
 `;
 
-export const Item = styled.div`
+export const Item = styled(Card)`
   width: 100%;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 32px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0px 0px 30px rgb(0 0 0 / 10%);
 `;
 
 export const Icon = styled.div`
