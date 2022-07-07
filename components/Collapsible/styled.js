@@ -2,8 +2,6 @@ import styled from "styled-components";
 
 export const CollapsibleLabel = styled.a`
   display: flex;
-  justify-content: center;
-  align-items: center;
   cursor: pointer;
   text-decoration: underline;
 `;
