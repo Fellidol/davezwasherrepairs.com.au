@@ -8,11 +8,9 @@ import {
   Contact,
   CallText,
   HeroImage,
-  OfferContainer,
-  Offer,
 } from "./styled";
 import ButtonCall from "../ButtonCall";
-import heroImg from "../../images/hero.png";
+import heroImg from "./images/hero.png";
 
 export default function Intro() {
   return (
@@ -37,12 +35,6 @@ export default function Intro() {
           priority
         />
       </HeroImage>
-      <OfferContainer>
-        <Offer>
-          Mention this website and receive <strong>$10 off</strong> your
-          repairs.
-        </Offer>
-      </OfferContainer>
     </Outer>
   );
 }

@@ -6,6 +6,4 @@ export default function Component(props) {
 
 const Section = styled.section`
   position: relative;
-  background-color: #fff;
-  background: linear-gradient(to bottom, #fff 0%, #dedede 100%);
 `;

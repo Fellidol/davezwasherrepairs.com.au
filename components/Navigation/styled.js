@@ -47,15 +47,6 @@ export const Menu = styled.div.attrs((props) => {
   transition: all 300ms ease-out;
 `;
 
-export const MenuItem = styled(Text)`
-  color: #fff;
-  padding: 16px;
-  margin: 0;
-  opacity: 0;
-  transform: translateX(-500px);
-  transition: all 300ms ease-in;
-`;
-
 export const MenuItems = styled.div`
   width: 100%;
   height: calc(100% - ${menuHeight});
@@ -86,4 +77,18 @@ export const MenuItems = styled.div`
         transition: all 800ms ease-out;
       }
     `}
+`;
+
+export const MenuItem = styled(Text)`
+  color: #fff;
+  padding: 16px;
+  margin: 0;
+  opacity: 0;
+  transform: translateX(-500px);
+  cursor: pointer;
+  transition: all 300ms ease-in;
+
+  &:hover {
+    text-decoration: underline;
+  }
 `;

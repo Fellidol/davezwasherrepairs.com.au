@@ -2,7 +2,6 @@ import Head from "next/head";
 import PageContainer from "../components/PageContainer";
 import Navigation from "../components/Navigation";
 import Intro from "../components/Intro";
-import Waves from "../components/Waves";
 import Propaganda from "../components/Propaganda";
 import Brands from "../components/Brands";
 import Areas from "../components/Areas";
@@ -24,7 +23,6 @@ export default function Home() {
       </Head>
       <Navigation />
       <Intro />
-      <Waves />
       <Anchor id="about" offset={offset} />
       <Propaganda />
       <Anchor id="brands" offset={offset} />

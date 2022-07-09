@@ -18,7 +18,7 @@ import logoFellidol from "../../images/fellidol.png";
 export default function Propaganda() {
   return (
     <Section>
-      <SectionInner>
+      <SectionInner gradient>
         <Title>Brands we service</Title>
         <Items>
           {logoArray.map((item) => (

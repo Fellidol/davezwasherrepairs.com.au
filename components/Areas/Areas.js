@@ -9,7 +9,7 @@ import suburbs from "./assets/suburbs.json";
 export default function Propaganda() {
   return (
     <Section>
-      <SectionInner>
+      <SectionInner gradient>
         <Title>The areas we service</Title>
         <Tabs data={data} />
       </SectionInner>

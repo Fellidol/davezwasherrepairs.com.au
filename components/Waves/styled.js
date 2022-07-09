@@ -10,18 +10,8 @@ const moveForever = keyframes` {
 }`;
 
 export const Outer = styled.div`
-  position: absolute;
   width: 100%;
   max-height: 200px;
-  transform: translateY(-100%);
-
-  &:after {
-    content: "";
-    display: block;
-    background: #fff;
-    width: 100%;
-    height: 100px;
-  }
 
   svg {
     position: relative;

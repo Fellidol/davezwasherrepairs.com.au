@@ -3,6 +3,7 @@ import Heading2 from "../Heading2";
 import Card from "../Card";
 
 export const Title = styled(Heading2)`
+  margin-top: 0;
   text-align: center;
 `;
 

@@ -24,7 +24,7 @@ const Navigation = () => {
         >
           <MenuIcon active={menuIsActive} />
         </MenuButton>
-        <Logo>
+        {/* <Logo>
           <Image
             src={fellidol}
             layout="fill"
@@ -32,7 +32,7 @@ const Navigation = () => {
             objectPosition="center"
             alt="fellidol logo"
           />
-        </Logo>
+        </Logo> */}
       </NavBar>
       <Menu active={menuIsActive}>
         <MenuItems active={menuIsActive}>
