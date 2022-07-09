@@ -5,7 +5,7 @@ import Text from "../Text";
 export const WavesTopContainer = styled.div`
   position: absolute;
   width: 100%;
-  transform: translateY(-99%);
+  transform: translateY(-90%);
 
   &:after {
     content: "";
@@ -60,7 +60,7 @@ export const ItemText = styled.div`
 
 export const WavesBottomContainer = styled.div`
   width: 100%;
-  transform: rotate(180deg);
+  transform: rotate(180deg) translateY(1%);
 `;
 
 export const OfferContainer = styled.div`
