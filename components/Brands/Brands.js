@@ -44,5 +44,5 @@ const logoArray = [
   { logo: logoHoover, alt: "Hoover" },
   { logo: logoBosch, alt: "Bosch" },
   { logo: logoElectrolux, alt: "Electrolux" },
-  { logo: logoFellidol, alt: "FellIdol" },
+  // { logo: logoFellidol, alt: "FellIdol" },
 ];
