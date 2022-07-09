@@ -5,15 +5,7 @@ import Text from "../Text";
 export const WavesTopContainer = styled.div`
   position: absolute;
   width: 100%;
-  transform: translateY(-90%);
-
-  &:after {
-    content: "";
-    display: block;
-    background: #fff;
-    width: 100%;
-    height: 20px;
-  }
+  transform: translateY(-99%);
 `;
 
 export const Items = styled.div`
