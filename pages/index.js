@@ -23,7 +23,7 @@ export default function Home() {
       </Head>
       <Navigation />
       <Intro />
-      <Anchor id="about" offset={offset} />
+      <Anchor id="about" offset="-80px" />
       <Propaganda />
       <Anchor id="brands" offset={offset} />
       <Brands />
