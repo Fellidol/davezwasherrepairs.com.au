@@ -5,7 +5,7 @@ import Text from "../Text";
 export const WavesTopContainer = styled.div`
   position: absolute;
   width: 100%;
-  transform: translateY(-100%);
+  transform: translateY(-99%);
 
   &:after {
     content: "";
