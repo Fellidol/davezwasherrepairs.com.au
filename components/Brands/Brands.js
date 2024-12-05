@@ -9,11 +9,11 @@ import logoWestinghouse from "./images/04-westinghouse.gif";
 import logoSpeedQueen from "./images/05-speed-queen.gif";
 import logoSamsung from "./images/07-samsung.gif";
 import logofisher from "./images/08-fischer.gif";
+import logoLg from "./images/09-lg.gif";
 import logoKleenmain from "./images/10-kleenmaid.gif";
 import logoHoover from "./images/11-hoover.gif";
 import logoBosch from "./images/12-bosch.gif";
 import logoElectrolux from "./images/13-electrolux.gif";
-import logoFellidol from "../../images/fellidol.png";
 
 export default function Propaganda() {
   return (
@@ -33,6 +33,7 @@ export default function Propaganda() {
 }
 
 const logoArray = [
+  { logo: logoLg, alt: "LG" },
   { logo: logoArtisan, alt: "Artiston" },
   { logo: logoSimpson, alt: "Simpson" },
   { logo: logoWhirlpool, alt: "Whirlpool" },
@@ -44,5 +45,4 @@ const logoArray = [
   { logo: logoHoover, alt: "Hoover" },
   { logo: logoBosch, alt: "Bosch" },
   { logo: logoElectrolux, alt: "Electrolux" },
-  // { logo: logoFellidol, alt: "FellIdol" },
 ];
