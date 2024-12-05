@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { NavBar, Menu, MenuItems, MenuItem, MenuButton, Logo } from "./styled";
 import MenuIcon from "../MenuIcon";
 import fellidol from "../../images/fellidol.png";

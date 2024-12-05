@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { Button, ButtonIcon, ButtonText } from "./styled.js";
 import phoneIcon from "./assets/phone-icon.svg";
 export default function ButtonCall() {

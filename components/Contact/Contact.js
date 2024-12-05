@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Section from "../Section";
 import SectionInner from "../SectionInner";
 import ButtonCall from "../ButtonCall/ButtonCall";
