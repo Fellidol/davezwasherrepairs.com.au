@@ -15,7 +15,7 @@ import logoHoover from "./images/11-hoover.gif";
 import logoBosch from "./images/12-bosch.gif";
 import logoElectrolux from "./images/13-electrolux.gif";
 
-export default function Propaganda() {
+export default function Brands() {
   return (
     <Section>
       <SectionInner gradient>

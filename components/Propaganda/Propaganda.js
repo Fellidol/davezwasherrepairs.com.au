@@ -18,8 +18,8 @@ export default function Propaganda() {
       <WavesTopContainer>
         <Waves />
       </WavesTopContainer>
-      <Section css="background-color: #fff">
-        <SectionInner css="padding-top:0">
+      <Section style={{ backgroundColor: "#fff" }}>
+        <SectionInner style={{ paddingTop: 0 }}>
           <OfferContainer>
             <Offer>
               Mention this website and receive <strong>$10 off</strong> your

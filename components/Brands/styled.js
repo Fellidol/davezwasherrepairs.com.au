@@ -25,11 +25,7 @@ export const Items = styled.div`
 `;
 
 export const Item = styled(Card)`
-  width: 100%;
-  text-align: center;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 32px;
 `;

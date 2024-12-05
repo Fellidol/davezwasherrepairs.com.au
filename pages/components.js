@@ -17,9 +17,9 @@ export default function Components() {
 
       <hr />
       <p>Card</p>
-      <div css="width:200px; height:200px;">
+      <CardContainer>
         <Card />
-      </div>
+      </CardContainer>
 
       <hr />
       <p>Collapsible</p>
@@ -47,4 +47,9 @@ export default function Components() {
 
 const PageContainer = styled.div`
   padding: 30px;
+`;
+
+const CardContainer = styled.div`
+  width: 200px;
+  height: 200px;
 `;
